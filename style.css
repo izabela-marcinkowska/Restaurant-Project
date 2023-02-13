@@ -1,0 +1,55 @@
+/* ****************************
+******* Styles *************
+**************************** */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Rubik", sans-serif;
+}
+
+/* ****************************
+******* HEADER *************
+**************************** */
+
+.header {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(img/hero-restaurant.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.nav-main {
+  padding-top: 2rem;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Gloria Hallelujah", sans-serif;
+}
+
+.nav-link {
+  font-size: 3.1rem;
+  text-decoration: none;
+  color: #f6f6f6;
+  text-transform: uppercase;
+}
+
+.logo-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* ---- TYPOGRAPHY ----  */
+/* 8 / 10 / 13 / 16 / 20 / 25 / 31 / 39 / 48  */
