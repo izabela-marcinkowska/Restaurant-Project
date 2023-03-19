@@ -51,5 +51,21 @@ html {
   transform: translate(-50%, -50%);
 }
 
+/* -------------- OUR STORY --------------- */
+.about-us-box {
+  margin-top: 9rem;
+  font-family: "Gloria Hallelujah", sans-serif;
+}
+
+.about-us-header {
+  font-size: 6rem;
+  text-align: center;
+}
+
+.about-us-text {
+  font-size: 2.5rem;
+  padding: 6rem 10rem;
+}
+
 /* ---- TYPOGRAPHY ----  */
 /* 8 / 10 / 13 / 16 / 20 / 25 / 31 / 39 / 48  */
