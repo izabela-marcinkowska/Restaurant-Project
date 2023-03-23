@@ -22,8 +22,6 @@ html {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(img/hero-restaurant.jpg);
   background-size: cover;
-  display: flex;
-  flex-direction: column;
   position: relative;
 }
 
@@ -70,12 +68,15 @@ html {
 }
 
 .social-icon-container {
-  display: flex;
-  gap: 20rem;
   position: absolute;
   top: 83%;
   left: 50%;
   transform: translate(-50%, 0);
+}
+
+.social-icons {
+  display: flex;
+  gap: 20rem;
 }
 
 .social-icon {
@@ -90,10 +91,18 @@ html {
 }
 
 /* -------------- OUR STORY --------------- */
-.about-us-box {
-  padding: 6.5rem 17rem;
-  font-family: "Amatic SC", cursive, sans-serif;
+.section {
   background-color: #eaeaea36;
+  padding: 6.5rem 1rem;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 120rem;
+}
+
+.about-us-box {
+  font-family: "Amatic SC", cursive, sans-serif;
 }
 
 .about-us-header {
@@ -127,6 +136,8 @@ html {
   text-align: end;
   padding: 1.5rem 7.5rem 0 0;
 }
+
+/* -------------- MENU SECTION --------------- */
 
 /* ---- TYPOGRAPHY ----  */
 /* 8 / 10 / 13 / 16 / 20 / 25 / 31 / 39 / 48  */
