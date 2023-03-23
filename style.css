@@ -49,7 +49,6 @@ html {
 
 .nav-link:hover {
   color: #e1a24f;
-
   transform: scale(1.2);
 }
 
@@ -74,7 +73,7 @@ html {
   display: flex;
   gap: 20rem;
   position: absolute;
-  top: 80%;
+  top: 83%;
   left: 50%;
   transform: translate(-50%, 0);
 }
@@ -82,6 +81,12 @@ html {
 .social-icon {
   color: rgba(255, 255, 255, 0.815);
   font-size: 6rem;
+  transition: all 0.4s;
+}
+
+.social-icon:hover {
+  color: #e1a24f;
+  transform: scale(1.2);
 }
 
 /* -------------- OUR STORY --------------- */
