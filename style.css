@@ -70,6 +70,20 @@ html {
   transform: translate(-50%, -50%);
 }
 
+.social-icon-container {
+  display: flex;
+  gap: 20rem;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.social-icon {
+  color: rgba(255, 255, 255, 0.815);
+  font-size: 6rem;
+}
+
 /* -------------- OUR STORY --------------- */
 .about-us-box {
   padding: 6.5rem 17rem;
