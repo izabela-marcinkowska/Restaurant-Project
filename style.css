@@ -142,6 +142,7 @@ html {
 .menu-section {
   display: flex;
   background-color: rgb(20, 23, 24);
+  margin: 0 auto;
 }
 
 .img-box {
@@ -189,6 +190,77 @@ html {
 .cta-book:hover {
   color: #e1a24f;
   border: 3px solid #e1a24f;
+  transform: scale(1.1);
+}
+
+/* -------------- TESTIMONIAL SECTION --------------- */
+.testimonial-section {
+  background-color: #eaeaea36;
+}
+
+.testimonial-container {
+  display: flex;
+  padding: 4rem 8rem;
+}
+
+.testimonials-box {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.gallery-box {
+  width: 50%;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* --------- TESTIMONIALS PART --------- */
+.header-customers {
+  font-size: 6rem;
+  font-family: "Amatic SC", cursive, sans-serif;
+  margin-bottom: 1rem;
+}
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem 4rem 0 0;
+  gap: 3rem;
+  max-width: 70rem;
+}
+
+.testimonial {
+  background-color: #f6e3ca;
+  border-radius: 2rem;
+  padding: 2rem;
+  font-family: "Comic Neue", cursive;
+}
+
+.testimonial-text {
+  font-size: 2rem;
+}
+
+.testimonial-name {
+  font-size: 1.8rem;
+  text-align: end;
+  font-style: italic;
+}
+
+/* ---------- GALLERY PART ---------- */
+
+.gallery-item {
+  overflow: hidden;
+}
+
+.gallery-img {
+  transition: all 0.4s;
+}
+
+.gallery-img:hover {
   transform: scale(1.1);
 }
 
