@@ -32,6 +32,7 @@ html {
 .nav-list {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 .nav-link {
@@ -54,6 +55,7 @@ html {
   border: 4px solid #f6f6f6;
   padding: 0.5rem 2.3rem;
   border-radius: 1rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
 }
 
 .cta-btn:hover {
@@ -65,7 +67,11 @@ html {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-35%, -50%);
+}
+
+.hero-logo {
+  width: 80%;
 }
 
 .social-icon-container {
@@ -77,12 +83,12 @@ html {
 
 .social-icons {
   display: flex;
-  gap: 20rem;
+  gap: 18rem;
 }
 
 .social-icon {
-  color: #ffffffd0;
-  font-size: 6rem;
+  color: rgba(255, 255, 255, 0.815);
+  font-size: 5rem;
   transition: all 0.4s;
 }
 
@@ -94,7 +100,7 @@ html {
 /* -------------- OUR STORY --------------- */
 .section {
   background-color: #fcf6ed;
-  padding: 6.5rem 1rem;
+  padding: 6rem 1rem;
 }
 
 .container {
@@ -115,10 +121,10 @@ html {
 }
 
 .about-us-text {
-  padding-top: 5rem;
-  font-size: 2.5rem;
+  padding-top: 4rem;
+  font-size: 2rem;
   letter-spacing: 1px;
-  line-height: 4rem;
+  line-height: 3.5rem;
   color: #161008;
   font-family: "Comic Neue", cursive;
   font-weight: 400;
@@ -126,9 +132,9 @@ html {
 }
 
 .welcome {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-family: "Comic Neue", cursive;
-  padding: 4rem 16rem 0 0;
+  padding: 3rem 16rem 0 0;
   text-align: end;
 }
 .sign {
@@ -159,8 +165,8 @@ html {
 }
 
 .menu-title {
-  font-size: 8rem;
-  margin-top: 6rem;
+  font-size: 7rem;
+  margin-top: 4rem;
 }
 
 .button {
@@ -176,20 +182,19 @@ html {
 
 .menu-name {
   font-size: 4rem;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .cta-book {
   font-size: 5rem;
-  margin-top: 6rem;
-  border: 3px solid #f6f6f6;
+  color: #e1a24f;
+  margin-top: 4rem;
+  border: 3px solid #e1a24f;
   padding: 0.5rem 2.3rem;
   border-radius: 1rem;
 }
 
 .cta-book:hover {
-  color: #e1a24f;
-  border: 3px solid #e1a24f;
   transform: scale(1.1);
 }
 
@@ -200,7 +205,7 @@ html {
 
 .testimonial-container {
   display: flex;
-  padding: 5rem 8rem;
+  padding: 4rem 8rem;
 }
 
 .testimonials-box {
@@ -220,7 +225,7 @@ html {
 
 /* --------- TESTIMONIALS PART --------- */
 .header-customers {
-  font-size: 6rem;
+  font-size: 5rem;
   font-family: "Amatic SC", cursive, sans-serif;
   margin-bottom: 1rem;
 }
@@ -229,7 +234,7 @@ html {
   display: flex;
   flex-direction: column;
   margin: 3rem 4rem 0 0;
-  gap: 3rem;
+  gap: 2rem;
   max-width: 70rem;
 }
 
@@ -241,11 +246,11 @@ html {
 }
 
 .testimonial-text {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .testimonial-name {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   text-align: end;
   font-style: italic;
 }
