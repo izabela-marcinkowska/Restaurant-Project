@@ -35,7 +35,8 @@ html {
   align-items: center;
 }
 
-.nav-link {
+.nav-link:link,
+.nav-link:visited {
   display: inline-block;
   font-family: "Amatic SC", cursive, sans-serif;
   font-size: 4.6rem;
@@ -46,12 +47,14 @@ html {
   transition: all 0.4s;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.nav-link:active {
   color: #e1a24f;
   transform: scale(1.2);
 }
 
-.cta-btn {
+.cta-btn:link,
+.cta-btn:visited {
   border: 4px solid #f0d1a7;
   color: #f0d1a7;
   padding: 0.5rem 2.3rem;
@@ -59,8 +62,10 @@ html {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
 }
 
-.cta-btn:hover {
+.cta-btn:hover,
+.cta-btn:active {
   border: 4px solid #e1a24f;
+  color: #e1a24f;
   transform: scale(1.1);
 }
 
@@ -170,13 +175,15 @@ html {
   margin-top: 3rem;
 }
 
-.button {
+.button:link,
+.button:visited {
   text-decoration: none;
   color: #f6f6f6;
   transition: all 0.4s;
 }
 
-.button:hover {
+.button:hover,
+.button:active {
   transform: scale(1.2);
   color: #e1a24f;
 }
@@ -186,7 +193,8 @@ html {
   margin-top: 2rem;
 }
 
-.cta-book {
+.cta-book:link,
+.cta-book:visited {
   font-size: 5rem;
   color: #edc795;
   margin-top: 4rem;
@@ -195,9 +203,11 @@ html {
   border-radius: 1rem;
 }
 
-.cta-book:hover {
+.cta-book:hover,
+.cta-book:active {
   transform: scale(1.1);
   border: 3px solid #e1a24f;
+  color: #e1a24f;
 }
 
 /* -------------- TESTIMONIAL SECTION --------------- */
@@ -306,6 +316,10 @@ html {
   color: #87612f;
 }
 
+.footer-social-icon:hover {
+  color: #9e7137;
+}
+
 .copyright {
   font-size: 1.5rem;
   color: #b4823f;
@@ -334,7 +348,13 @@ html {
   color: #5a4120;
 }
 
-.button-find-us {
+.footer-link:hover,
+.footer-link:active {
+  color: #9e7137;
+}
+
+.button-find-us:link,
+.button-find-us:visited {
   font-size: 3rem;
   font-family: "Amatic SC", cursive, sans-serif;
   border: 2px solid #5a4120;
@@ -344,8 +364,14 @@ html {
   text-decoration: none;
   padding: 0.5rem 3rem;
   display: inline-block;
-  margin-top: 2rem;
+  margin-top: 4rem;
   text-transform: uppercase;
+}
+
+.button-find-us:hover,
+.button-find-us:active {
+  color: #9e7137;
+  border: 2px solid #9e7137;
 }
 
 /* ---------- Find us PART ---------- */
