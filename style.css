@@ -167,7 +167,7 @@ html {
 
 .menu-title {
   font-size: 7rem;
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 
 .button {
@@ -273,9 +273,9 @@ html {
 
 /* -------------- FOOTER SECTION --------------- */
 .footer-section {
-  background-color: #eaeaea36;
+  background-color: #fcf6ed;
   padding: 5rem 0;
-  border-top: 1px solid #eee;
+  font-family: "Comic Neue", cursive;
 }
 
 .footer-container {
@@ -286,6 +286,7 @@ html {
   max-width: 120rem;
 }
 
+/* ---------- Social media PART ---------- */
 .logo-box {
   width: 20rem;
 }
@@ -305,11 +306,37 @@ html {
 }
 
 .copyright {
-  font-family: "Comic Neue", cursive;
   font-size: 1.5rem;
   padding-top: 1.8rem;
   line-height: 2rem;
   color: #5a4120;
 }
+
+/* ---------- Opening Hours PART ---------- */
+.footer-header {
+  font-size: 2rem;
+  color: #5a4120;
+  padding-bottom: 2rem;
+}
+
+.footer-text {
+  font-size: 1.5rem;
+  padding-top: 0.5rem;
+  color: #5a4120;
+}
+
+.button-find-us {
+  font-size: 1.5rem;
+  background-color: #f6e3ca;
+  color: #5a4120;
+  border-radius: 1rem;
+  text-decoration: none;
+  padding: 1rem 3rem;
+  display: inline-block;
+  margin-top: 2rem;
+  text-transform: uppercase;
+}
+
+/* ---------- Find us PART ---------- */
 /* ---- TYPOGRAPHY ----  */
 /* 8 / 10 / 13 / 16 / 20 / 25 / 31 / 39 / 48  */
