@@ -207,7 +207,7 @@ html {
 
 .testimonial-container {
   display: flex;
-  padding: 4rem 8rem;
+  padding: 8rem 8rem 9rem 8rem;
 }
 
 .testimonials-box {
@@ -241,7 +241,7 @@ html {
 }
 
 .testimonial {
-  background-color: #f9ecdc;
+  background-color: #f3dab9;
   border-radius: 2rem;
   padding: 2rem;
   font-family: "Comic Neue", cursive;
