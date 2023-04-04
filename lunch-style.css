@@ -81,10 +81,18 @@ html {
   padding-top: 12rem;
 }
 
+.hero-text {
+  font-size: 1.6rem;
+  font-family: "Comic Neue", cursive;
+  color: #f6f6f6;
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
 /* Menu Section  */
 .menu-container {
   display: flex;
-  margin: 5rem auto;
+  margin: 5rem auto 3rem auto;
   justify-content: center;
   gap: 5rem;
 }
@@ -130,4 +138,123 @@ html {
 .dish-price {
   font-size: 1.4rem;
   font-style: italic;
+}
+
+.button-box {
+  text-align: center;
+}
+
+.button-book:link,
+.button-book:visited {
+  font-size: 4rem;
+  font-family: "Amatic SC", cursive, sans-serif;
+  border: 2px solid #5a4120;
+  font-weight: 700;
+  color: #5a4120;
+  background-color: ;
+  border-radius: 1rem;
+  text-decoration: none;
+  padding: 0.5rem 10rem;
+  display: inline-block;
+  text-transform: uppercase;
+  margin: 2rem 0 5rem 0;
+}
+
+.button-book:hover,
+.button-book:active {
+  color: #9e7137;
+  border: 2px solid #9e7137;
+}
+
+/* -------------- FOOTER SECTION --------------- */
+.footer-section {
+  background-color: #fcf6ed;
+  padding: 5rem 0 2rem 0;
+  font-family: "Comic Neue", cursive;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  margin: 0 auto;
+  max-width: 120rem;
+}
+
+/* ---------- Social media PART ---------- */
+.logo-box {
+  width: 20rem;
+  padding-top: 1.5rem;
+}
+
+.social-icons-box {
+  padding-top: 3rem;
+}
+
+.footer-social-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-social-icon {
+  font-size: 3rem;
+  color: #87612f;
+}
+
+.footer-social-icon:hover {
+  color: #9e7137;
+}
+
+.copyright {
+  font-size: 1.5rem;
+  color: #b4823f;
+}
+
+/* ---------- Opening Hours PART ---------- */
+.footer-box {
+  margin-bottom: 4rem;
+}
+
+.footer-header {
+  font-size: 2rem;
+  color: #5a4120;
+  padding-bottom: 0.5rem;
+}
+
+.footer-text {
+  font-size: 1.5rem;
+  padding-top: 0.5rem;
+  color: #5a4120;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  color: #5a4120;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #9e7137;
+}
+
+.button-find-us:link,
+.button-find-us:visited {
+  font-size: 3rem;
+  font-family: "Amatic SC", cursive, sans-serif;
+  border: 2px solid #5a4120;
+  font-weight: 700;
+  color: #5a4120;
+  border-radius: 1rem;
+  text-decoration: none;
+  padding: 0.5rem 3rem;
+  display: inline-block;
+  margin-top: 4rem;
+  text-transform: uppercase;
+}
+
+.button-find-us:hover,
+.button-find-us:active {
+  color: #9e7137;
+  border: 2px solid #9e7137;
 }
