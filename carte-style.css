@@ -12,7 +12,7 @@ html {
 .header {
   height: 50rem;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)),
-    url(img/hero-short-img.jpg);
+    url(img/windowlook.jpg);
   background-size: cover;
   position: relative;
 }
@@ -78,7 +78,7 @@ html {
   font-weight: 700;
   color: #f6f6f6;
   text-align: center;
-  padding-top: 10rem;
+  padding-top: 8rem;
 }
 
 .hero-text {
