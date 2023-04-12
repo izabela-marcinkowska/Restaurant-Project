@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="book-style.css" />
+    <title>Johnie's Restaurant | Book a Table</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav-main">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="lunch.html" class="nav-link">Lunch</a></li>
+          <li><a href="carte.html" class="nav-link">A'la Carte</a></li>
+          <li><a href="find-us.html" class="nav-link">Find us</a></li>
+          <li class="current-link"><p class="cta-btn">Book a Table</p></li>
+        </ul>
+      </nav>
+      <h1 class="hero-title">Book a Table</h1>
+    </header>
+    <main class="section">
+      <section class="container">
+        <div class="bild-box">
+          <img
+            src="img/reserved.jpg"
+            alt="Picture of reserved table at a restaurant."
+            width="100%"
+            height="auto"
+          />
+        </div>
+        <div class="form-box">
+          <h2 class="title">Enter your details</h2>
+          <div class="form-container">
+            <form class="cta-form" action="#">
+              <div>
+                <label for="full-name">Full Name</label>
+                <input
+                  id="full-name"
+                  type="text"
+                  placeholder="John Addams"
+                  required
+                />
+              </div>
+              <div>
+                <label for="email">Email Adress</label>
+                <input
+                  id="email"
+                  type="email"
+                  placeholder="john.addams@email.com"
+                  required
+                />
+              </div>
+              <div>
+                <label for="phone">Phone Number</label>
+                <input
+                  id="phone"
+                  type="phone"
+                  placeholder="07700 900410"
+                  required
+                />
+              </div>
+              <div>
+                <label for="select-where">Select Bookning</label>
+                <input type="datetime-local" id="date"  required>
+                </select>
+              </div>
+              <button class="button">Book now</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+  <!-- Footer section -->
+  <footer class="footer-section">
+    <div class="footer-container">
+      <div class="social-box">
+        <div class="logo-box">
+          <img
+            src="img/logo_crop_dark.png"
+            alt="Logo"
+            class="logo-img"
+            width="100%"
+            height="auto"
+          />
+        </div>
+        <div class="social-icons-box">
+          <div class="footer-social-icons">
+            <a href="#"
+              ><ion-icon
+                name="logo-facebook"
+                class="footer-social-icon"
+              ></ion-icon
+            ></a>
+            <a href="#"
+              ><ion-icon
+                name="logo-instagram"
+                class="footer-social-icon"
+              ></ion-icon
+            ></a>
+            <a href="#"
+              ><ion-icon
+                name="logo-twitter"
+                class="footer-social-icon"
+              ></ion-icon
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="second-box">
+        <div class="footer-box">
+          <h1 class="footer-header">Opening hours:</h1>
+          <p class="footer-text">Monday - Thursday : 2 PM - 8 PM</p>
+          <p class="footer-text">Friday - Sunday : 2 PM - 10 PM</p>
+        </div>
+        <div class="footer-box">
+          <h1 class="footer-header">Our menus:</h1>
+          <p class="footer-text">
+            <a href="#" class="footer-link">Lunch Menu</a>
+          </p>
+          <p class="footer-text">
+            <a href="#" class="footer-link">A'la Carte Menu</a>
+          </p>
+        </div>
+      </div>
+      <div class="find-us-box">
+        <h1 class="footer-header">Find us:</h1>
+        <p class="footer-text">
+          9407 Queens Road <br />
+          London <br />
+          E61 0QN
+        </p>
+        <a href="#" class="button-find-us">Find us</a>
+      </div>
+      <p class="copyright">Copyright by Izabela Marcinkowska 2023</p>
+    </div>
+  </footer>
+</main>
+<script
+  type="module"
+  src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+></script>
+<script
+  nomodule
+  src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+></script>
+</body>
+</html>

@@ -376,6 +376,7 @@ html {
   display: inline-block;
   margin-top: 4rem;
   text-transform: uppercase;
+  transition: all 0.4s;
 }
 
 .button-find-us:hover,
