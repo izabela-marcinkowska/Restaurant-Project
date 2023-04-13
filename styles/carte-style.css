@@ -13,6 +13,11 @@ html {
   font-family: "Comic-Nue", sans-serif;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 /* ****************************
 ******* HEADER *************
 **************************** */

@@ -13,6 +13,11 @@ html {
   font-family: "Comic-Nue", sans-serif;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 /* ****************************
 ******* HEADER *************
 **************************** */
@@ -164,11 +169,6 @@ html {
   display: flex;
   background-color: rgb(20, 23, 24);
   margin: 0 auto;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
 }
 
 .img-box {
