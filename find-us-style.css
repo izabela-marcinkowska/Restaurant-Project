@@ -1,3 +1,7 @@
+/* ****************************
+******* GENERAL *************
+**************************** */
+
 * {
   padding: 0;
   margin: 0;
@@ -8,6 +12,10 @@ html {
   font-size: 62.5%;
   font-family: "Comic-Nue", sans-serif;
 }
+
+/* ****************************
+******* HEADER *************
+**************************** */
 
 .header {
   height: 50rem;
@@ -29,13 +37,13 @@ html {
 .nav-link:link,
 .nav-link:visited {
   display: inline-block;
+  transition: all 0.4s;
+  text-decoration: none;
   font-family: "Amatic SC", cursive, sans-serif;
   font-size: 4.6rem;
   font-weight: 700;
-  text-decoration: none;
   color: #f6f6f6;
   text-transform: uppercase;
-  transition: all 0.4s;
 }
 
 .nav-link:hover,
@@ -49,6 +57,7 @@ html {
   font-family: "Amatic SC", cursive, sans-serif;
   font-size: 4.6rem;
   font-weight: 700;
+  text-decoration: none;
   color: #e1a24f;
   text-transform: uppercase;
 }
@@ -57,10 +66,10 @@ html {
 .cta-btn:visited {
   font-size: 4.3rem;
   border: 4px solid #f0d1a7;
-  color: #f0d1a7;
-  padding: 0.5rem 2.3rem;
   border-radius: 1rem;
+  color: #f0d1a7;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  padding: 0.5rem 2.3rem;
 }
 
 .cta-btn:hover,
@@ -76,26 +85,30 @@ html {
   font-weight: 700;
   color: #f6f6f6;
   text-align: center;
-  padding-top: 7rem;
+  padding-top: 10rem;
 }
+
+/* ****************************
+******* MAIN *************
+**************************** */
 
 .section {
   margin: 8rem 0;
 }
 
 .container {
+  display: flex;
   margin: 0 auto;
   max-width: 120rem;
   color: #161008;
-  display: flex;
-  box-shadow: 1.2rem 1.2rem 3rem rgba(0, 0, 0, 0.1);
   background-color: #fcf6ed;
+  box-shadow: 1.2rem 1.2rem 3rem rgba(0, 0, 0, 0.1);
 }
 
 .right-box {
-  margin: 2rem 3rem 2rem 3rem;
   display: flex;
   flex-direction: column;
+  margin: 2rem 3rem 2rem 3rem;
 }
 
 .title {
@@ -106,8 +119,8 @@ html {
 
 .contact-container {
   display: flex;
-  margin-top: 3rem;
   gap: 2rem;
+  margin-top: 3rem;
 }
 
 .adress-box {
@@ -115,15 +128,14 @@ html {
 }
 
 .contact-box {
-  justify-content: center;
   width: 50%;
 }
 
 .secondary-title {
   font-size: 4rem;
   font-family: "Amatic SC", cursive, sans-serif;
-  margin-bottom: 2rem;
   text-align: center;
+  margin-bottom: 2rem;
 }
 
 .adress {
@@ -141,51 +153,34 @@ html {
   font-weight: 400;
 }
 
-.phone:link,
-.phone:visited {
+.link-text:link,
+.link-text:visited {
   display: block;
+  transition: all 0.4s;
   font-size: 2rem;
   color: #161008;
   font-family: "Comic Neue", cursive;
   font-weight: 400;
   margin-top: 1.5rem;
   text-align: center;
-  transition: all 0.4s;
 }
 
-.phone:hover,
-.phone:active {
-  color: #e1a24f;
-}
-
-.email:link,
-.email:visited {
-  display: block;
-  font-size: 2rem;
-  color: #161008;
-  font-family: "Comic Neue", cursive;
-  font-weight: 400;
-  margin-top: 1.5rem;
-  text-align: center;
-  transition: all 0.4s;
-}
-
-.email:hover,
-.email:active {
+.link-text:hover,
+.link-text:active {
   color: #e1a24f;
 }
 
 .button:link,
 .button:visited {
+  align-self: center;
+  transition: all 0.4s;
   text-decoration: none;
   font-size: 4rem;
   font-family: "Amatic SC", cursive, sans-serif;
-  transition: all 0.4s;
   color: #5a4120;
   border: 3px solid #5a4120;
-  padding: 0.5rem 2.3rem;
   border-radius: 0.8rem;
-  align-self: center;
+  padding: 0.5rem 2.3rem;
   margin-top: 3rem;
 }
 
@@ -195,16 +190,18 @@ html {
   border: 3px solid #e1a24f;
 }
 
-/* -------------- FOOTER SECTION --------------- */
+/* ****************************
+******* FOOTER *************
+**************************** */
 .footer-section {
+  font-family: "Comic Neue", cursive;
   background-color: #fcf6ed;
   padding: 5rem 0 2rem 0;
-  font-family: "Comic Neue", cursive;
 }
 
 .footer-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   justify-items: center;
   margin: 0 auto;
   max-width: 120rem;
@@ -260,6 +257,7 @@ html {
 .footer-link:visited {
   text-decoration: none;
   color: #5a4120;
+  transition: all 0.4s;
 }
 
 .footer-link:hover,
@@ -269,22 +267,22 @@ html {
 
 .button-find-us:link,
 .button-find-us:visited {
+  display: inline-block;
+  transition: all 0.4s;
   font-size: 3rem;
   font-family: "Amatic SC", cursive, sans-serif;
-  border: 2px solid #5a4120;
   font-weight: 700;
   color: #5a4120;
-  border-radius: 1rem;
   text-decoration: none;
-  padding: 0.5rem 3rem;
-  display: inline-block;
-  margin-top: 4rem;
   text-transform: uppercase;
-  transition: all 0.4s;
+  border: 2px solid #5a4120;
+  border-radius: 1rem;
+  padding: 0.5rem 3rem;
+  margin-top: 4rem;
 }
 
 .button-find-us:hover,
 .button-find-us:active {
-  color: #e1a24f;
-  border: 2px solid #e1a24f;
+  color: #9e7137;
+  border: 2px solid #9e7137;
 }
