@@ -24,7 +24,6 @@ html {
 .nav-list {
   display: flex;
   justify-content: space-around;
-  align-items: center;
 }
 
 .nav-link:link,
@@ -33,7 +32,6 @@ html {
   font-family: "Amatic SC", cursive, sans-serif;
   font-size: 4.6rem;
   font-weight: 700;
-  text-decoration: none;
   color: #f6f6f6;
   text-transform: uppercase;
   transition: all 0.4s;
