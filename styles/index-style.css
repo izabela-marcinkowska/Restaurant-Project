@@ -24,7 +24,7 @@ img {
 .header {
   height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(../img/hero-restaurant.jpg);
+    url(../img/hero-restaurant.webp);
   background-size: cover;
   position: relative;
 }

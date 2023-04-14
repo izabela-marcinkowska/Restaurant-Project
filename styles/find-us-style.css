@@ -20,7 +20,7 @@ html {
 .header {
   height: 50rem;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)),
-    url(../img/outside.jpg);
+    url(../img/hero-find-us.webp);
   background-size: cover;
   position: relative;
 }

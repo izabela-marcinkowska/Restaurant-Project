@@ -25,7 +25,7 @@ img {
 .header {
   height: 50rem;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)),
-    url(../img/hero-short-img.jpg);
+    url(../img/hero-lunch.webp);
   background-size: cover;
   position: relative;
 }

@@ -24,8 +24,8 @@ img {
 
 .header {
   height: 50rem;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)),
-    url(../img/windowlook.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.347)),
+    url(../img/hero-book.webp);
   background-size: cover;
   position: relative;
 }
@@ -80,9 +80,9 @@ img {
   font-family: "Amatic SC", cursive, sans-serif;
   font-size: 9rem;
   font-weight: 700;
-  color: #f6f6f6;
+  color: #f0d1a7;
   text-align: center;
-  padding-top: 11rem;
+  padding-top: 9rem;
 }
 
 /* ****************************
