@@ -119,6 +119,8 @@ img {
   background-color: #f6e3ca;
   border-radius: 4rem;
   padding-top: 2rem;
+  padding-bottom: 3rem;
+  padding-top: 2rem;
 }
 
 .dish-row:first-child {

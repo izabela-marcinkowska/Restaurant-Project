@@ -28,13 +28,14 @@
 @media (max-width: 43em) {
   .header {
     display: flex;
-    padding: 6rem 3rem;
+    padding: 4rem 3rem;
     height: auto;
   }
 
   .nav-main {
     width: 50%;
     align-self: center;
+    padding-top: 0;
   }
 
   .low-box {
@@ -66,14 +67,14 @@
   }
 
   .hero-title {
-    padding: 6rem 0 0 0;
+    padding: 1rem 0 0 0;
     font-size: 6rem;
   }
 
   .hero-text {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
     border-radius: 2rem;
-    margin-top: 4rem;
+    margin-top: 2rem;
   }
 
   .menu-container {
