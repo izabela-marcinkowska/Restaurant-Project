@@ -121,6 +121,12 @@ img {
   flex-direction: column;
 }
 
+.fields {
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  font-family: "Comic Neue", cursive;
+}
+
 .cta-form label {
   display: block;
   font-size: 2rem;
@@ -128,7 +134,7 @@ img {
   font-family: "Comic Neue", cursive;
   font-weight: 500;
   margin-bottom: 0.5rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 .cta-form input,
 .cta-form select {
