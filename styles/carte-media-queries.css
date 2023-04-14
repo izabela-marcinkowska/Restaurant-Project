@@ -1,5 +1,5 @@
 /* ************************* */
-/* BELOW 1280px (smaller desktops)*/
+/* BELOW 1152 (laptops)*/
 /* ************************* */
 
 @media (max-width: 72em) {
@@ -11,6 +11,10 @@
     margin: 4rem 3rem;
   }
 }
+
+/* ************************* */
+/* BELOW 960px (smaller laptops)*/
+/* ************************* */
 
 @media (max-width: 60em) {
   html {
@@ -25,6 +29,10 @@
   }
 }
 
+/* ************************* */
+/* BELOW 688px (tablets)*/
+/* ************************* */
+
 @media (max-width: 43em) {
   .header {
     display: flex;
@@ -36,10 +44,6 @@
     width: 50%;
     align-self: center;
     padding-top: 0;
-  }
-
-  .low-box {
-    width: 50%;
   }
 
   .nav-list {
@@ -64,6 +68,9 @@
     border-radius: 1rem;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
     padding: 0.5rem 2.3rem;
+  }
+  .low-box {
+    width: 50%;
   }
 
   .hero-title {
@@ -96,6 +103,10 @@
     row-gap: 0;
   }
 }
+
+/* ************************* */
+/* BELOW 512px (mobile)*/
+/* ************************* */
 
 @media (max-width: 32em) {
   .footer-section {

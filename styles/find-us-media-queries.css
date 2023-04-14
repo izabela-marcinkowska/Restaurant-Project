@@ -1,5 +1,5 @@
 /* ************************* */
-/* BELOW 1280px (smaller desktops)*/
+/* BELOW 1152px (laptops)*/
 /* ************************* */
 
 @media (max-width: 72em) {
@@ -13,10 +13,15 @@
   .container {
     gap: 2rem;
   }
+
   .adress {
     padding-left: 0;
   }
 }
+
+/* ************************* */
+/* BELOW 960px (smaller laptops)*/
+/* ************************* */
 
 @media (max-width: 60em) {
   html {
@@ -26,6 +31,10 @@
     max-width: 100%;
   }
 }
+
+/* ************************* */
+/* BELOW 864px (bigger tablets)*/
+/* ************************* */
 
 @media (max-width: 54em) {
   .title {
@@ -40,6 +49,10 @@
     margin-top: 1rem;
   }
 }
+
+/* ************************* */
+/* BELOW 816px (tablets)*/
+/* ************************* */
 
 @media (max-width: 51em) {
   .container {
@@ -71,6 +84,10 @@
     text-align: center;
   }
 }
+
+/* ************************* */
+/* BELOW 688px (smaller tablets)*/
+/* ************************* */
 
 @media (max-width: 43em) {
   .header {
@@ -125,6 +142,10 @@
     row-gap: 0;
   }
 }
+
+/* ************************* */
+/* BELOW 512px (mobiles)*/
+/* ************************* */
 
 @media (max-width: 32em) {
   .footer-container {

@@ -1,5 +1,5 @@
 /* ************************* */
-/* BELOW 1280px (smaller desktops)*/
+/* BELOW 1152px (Laptops)*/
 /* ************************* */
 
 @media (max-width: 72em) {
@@ -11,6 +11,10 @@
     margin: 4rem 3rem;
   }
 }
+
+/* ************************* */
+/* BELOW 960px (Smaller Laptops)*/
+/* ************************* */
 
 @media (max-width: 60em) {
   html {
@@ -24,6 +28,10 @@
     font-size: 4rem;
   }
 }
+
+/* ************************* */
+/* BELOW 688px (Tablets)*/
+/* ************************* */
 
 @media (max-width: 43em) {
   .header {
@@ -40,6 +48,17 @@
 
   .low-box {
     width: 50%;
+  }
+
+  .hero-title {
+    padding: 2rem 0 0 0;
+    font-size: 6rem;
+  }
+
+  .hero-text {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    border-radius: 2rem;
+    margin-top: 4rem;
   }
 
   .nav-list {
@@ -66,17 +85,6 @@
     padding: 0.5rem 2.3rem;
   }
 
-  .hero-title {
-    padding: 2rem 0 0 0;
-    font-size: 6rem;
-  }
-
-  .hero-text {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
-    border-radius: 2rem;
-    margin-top: 4rem;
-  }
-
   .menu-container {
     flex-direction: column;
     align-items: center;
@@ -96,6 +104,10 @@
     row-gap: 0;
   }
 }
+
+/* ************************* */
+/* BELOW 512px (Mobiles)*/
+/* ************************* */
 
 @media (max-width: 32em) {
   .footer-section {

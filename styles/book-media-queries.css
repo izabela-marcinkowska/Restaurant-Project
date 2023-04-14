@@ -1,5 +1,5 @@
 /* ************************* */
-/* BELOW 1280px (smaller desktops)*/
+/* BELOW 1152px (laptops)*/
 /* ************************* */
 
 @media (max-width: 72em) {
@@ -10,6 +10,10 @@
     margin: 8rem 2rem;
   }
 }
+
+/* ************************* */
+/* BELOW 864px (bigger tablets)*/
+/* ************************* */
 
 @media (max-width: 54em) {
   html {
@@ -25,21 +29,11 @@
   }
 }
 
+/* ************************* */
+/* BELOW 734px (mobiles)*/
+/* ************************* */
+
 @media (max-width: 46em) {
-  .container {
-    flex-direction: column-reverse;
-  }
-
-  .bild-box,
-  .form-box {
-    width: 100%;
-    padding: 2rem 4rem 3rem 4rem;
-  }
-
-  .button {
-    margin-top: 5rem;
-  }
-
   .header {
     display: flex;
     padding: 2rem 3rem;
@@ -81,6 +75,20 @@
     font-size: 6rem;
     justify-self: center;
     width: 50%;
+  }
+
+  .container {
+    flex-direction: column-reverse;
+  }
+
+  .bild-box,
+  .form-box {
+    width: 100%;
+    padding: 2rem 4rem 3rem 4rem;
+  }
+
+  .button {
+    margin-top: 5rem;
   }
 
   .footer-container {
