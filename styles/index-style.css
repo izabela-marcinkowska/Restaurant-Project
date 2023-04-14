@@ -169,6 +169,7 @@ img {
   display: flex;
   background-color: rgb(20, 23, 24);
   margin: 0 auto;
+  align-items: center;
 }
 
 .img-box {
@@ -228,8 +229,9 @@ img {
 .testimonial-section {
   background-color: #eaeaea36;
 }
-
 .testimonial-container {
+  margin: 0 auto;
+  max-width: 140rem;
   display: flex;
   padding: 8rem 8rem 9rem 8rem;
 }
@@ -283,6 +285,7 @@ img {
 
 .gallery-item {
   overflow: hidden;
+  max-width: 30rem;
 }
 
 .gallery-img {
