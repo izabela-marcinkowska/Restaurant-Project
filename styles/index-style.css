@@ -167,7 +167,7 @@ img {
 /* -------------- MENU SECTION --------------- */
 .menu-section {
   display: flex;
-  background-color: rgb(20, 23, 24);
+  background-color: #141718;
   margin: 0 auto;
   align-items: center;
 }

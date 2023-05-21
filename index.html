@@ -24,13 +24,14 @@
     />
     <link rel="stylesheet" href="styles/index-style.css" />
     <link rel="stylesheet" href="styles/index-media-queries.css" />
+    <link rel="stylesheet" href="https://www.unpkg.com/sal.js@0.8.5/dist/sal.css" />
     <title>Johnie's | Home</title>
     <link rel="icon" type="image/x-icon" href="img/logo-middle.png" />
   </head>
   <body>
     <!--##### HEADER SECTION #######-->
     <header class="header">
-      <nav class="nav-main">
+      <nav class="nav-main" data-sal="slide-down" data-sal-delay="300" data-sal-duration="500" data-sal-easing="ease">
         <ul class="nav-list">
           <li class="current-link"><p class="p-link">Home</p></li>
           <li><a href="lunch.html" class="nav-link">Lunch</a></li>
@@ -43,7 +44,7 @@
           </li>
         </ul>
       </nav>
-      <div class="logo-container">
+      <div class="logo-container" data-sal="fade" data-sal-delay="500" data-sal-duration="500" data-sal-easing="ease">
         <img
           src="img/Logo.png"
           class="hero-logo"
@@ -69,7 +70,7 @@
       <!--######## ABOUT US SECTION #########-->
       <div class="section">
         <div class="container">
-          <article class="about-us-box">
+          <article class="about-us-box" data-sal="slide-up" data-sal-duration="500" data-sal-easing="ease">
             <h2 class="about-us-header">Our history</h2>
             <p class="about-us-text">
               Welcome to Johnie's, where contemporary flavors meet traditional
@@ -94,13 +95,13 @@
         </div>
       </div>
       <section class="menu-section">
-        <div class="img-box">
+        <div class="img-box" data-sal="fade" data-sal-duration="500" data-sal-easing="ease">
           <img
             src="img/support-img.webp"
             alt="Dark picture of inside of restaurant"
           />
         </div>
-        <div class="menu-box">
+        <div class="menu-box" data-sal="slide-left" data-sal-delay="500" data-sal-duration="500" data-sal-easing="ease">
           <h2 class="menu-title">Our menus</h2>
           <a href="lunch.html" class="button menu-name">Lunch Menu</a>
           <a href="carte.html" class="button menu-name">A'la carte Menu</a>
@@ -113,7 +114,7 @@
           <div class="testimonials-box">
             <h2 class="header-customers">Our customers says:</h2>
             <div class="testimonials">
-              <div class="testimonial">
+              <div class="testimonial" data-sal="slide-up" data-sal-delay="500" data-sal-duration="500" data-sal-easing="ease-out">
                 <blockquote class="testimonial-text">
                   Johnie's Restaurant is the perfect place to experience the
                   best of modern fusion cuisine. The dishes are creative,
@@ -122,7 +123,7 @@
                 </blockquote>
                 <p class="testimonial-name">- Sarah L.</p>
               </div>
-              <div class="testimonial">
+              <div class="testimonial" data-sal="slide-up" data-sal-delay="750" data-sal-duration="500" data-sal-easing="ease-out">
                 <blockquote class="testimonial-text">
                   I was blown away by the food at Johnie's Restaurant. The chefs
                   have an amazing ability to combine different flavors and
@@ -132,7 +133,7 @@
                 </blockquote>
                 <p class="testimonial-name">- Michael S.</p>
               </div>
-              <div class="testimonial">
+              <div class="testimonial" data-sal="slide-up" data-sal-delay="1000" data-sal-duration="500" data-sal-easing="ease-out">
                 <blockquote class="testimonial-text">
                   Johnie's Restaurant is a must-visit for anyone who loves food.
                   The fusion cuisine here is truly exceptional, with flavors and
@@ -142,7 +143,7 @@
                 </blockquote>
                 <p class="testimonial-name">- Melissa T.</p>
               </div>
-              <div class="testimonial">
+              <div class="testimonial" data-sal="slide-up" data-sal-delay="1250" data-sal-duration="500" data-sal-easing="ease-out">
                 <blockquote class="testimonial-text">
                   Johnie's Restaurant is hands down one of the best restaurants
                   I've ever been to. The fusion cuisine here is inventive and
@@ -156,63 +157,63 @@
           </div>
           <!--#### GALLERY SECTION ######-->
           <aside class="gallery-box">
-            <figure class="gallery-item">
+            <figure class="gallery-item" data-sal="zoom-in" data-sal-delay="150" data-sal-duration="500" data-sal-easing="ease">
               <img
                 src="img/gallery/gallery-1.webp"
                 alt="Picture of a food - Ramen"
                 class="gallery-img"
               />
             </figure>
-            <figure class="gallery-item">
+            <figure class="gallery-item" data-sal="zoom-in" data-sal-delay="300" data-sal-duration="500" data-sal-easing="ease">
               <img
                 src="img/gallery/gallery-2.webp"
                 alt="Picture of a food - Beef"
                 class="gallery-img"
               />
             </figure>
-            <figure class="gallery-item">
+            <figure class="gallery-item" data-sal="zoom-in" data-sal-delay="450" data-sal-duration="500" data-sal-easing="ease">
               <img
                 src="img/gallery/gallery-3.webp"
                 alt="Picture of a food - Sallad"
                 class="gallery-img"
               />
             </figure>
-            <figure class="gallery-item">
+            <figure class="gallery-item" data-sal="zoom-in" data-sal-delay="600" data-sal-duration="500" data-sal-easing="ease">
               <img
                 src="img/gallery/gallery-4.webp"
                 alt="Picture of a food - Breakfast"
                 class="gallery-img"
               />
             </figure>
-            <figure class="gallery-item">
+            <figure class="gallery-item" data-sal="zoom-in" data-sal-delay="750" data-sal-duration="500" data-sal-easing="ease">
               <img
                 src="img/gallery/gallery-5.webp"
                 alt="Picture of a black woman cooking food"
                 class="gallery-img"
               />
             </figure>
-            <figure class="gallery-item">
+            <figure class="gallery-item" data-sal="zoom-in" data-sal-delay="900" data-sal-duration="500" data-sal-easing="ease">
               <img
                 src="img/gallery/gallery-6.webp"
                 alt="Picture of a food - 2 stews"
                 class="gallery-img"
               />
             </figure>
-            <figure class="gallery-item">
+            <figure class="gallery-item" data-sal="zoom-in" data-sal-delay="1050" data-sal-duration="500" data-sal-easing="ease">
               <img
                 src="img/gallery/gallery-7.webp"
                 alt="Picture of a food - Egg sandwich"
                 class="gallery-img"
               />
             </figure>
-            <figure class="gallery-item">
+            <figure class="gallery-item" data-sal="zoom-in" data-sal-delay="1200" data-sal-duration="500" data-sal-easing="ease">
               <img
                 src="img/gallery/gallery-8.webp"
                 alt="Picture of a food - Jar"
                 class="gallery-img"
               />
             </figure>
-            <figure class="gallery-item">
+            <figure class="gallery-item" data-sal="zoom-in" data-sal-delay="1350" data-sal-duration="500" data-sal-easing="ease">
               <img
                 src="img/gallery/gallery-9.webp"
                 alt="Picture of a food - Extreme high hamburger"
@@ -289,5 +290,7 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+    <script src="https://www.unpkg.com/sal.js@0.8.5/dist/sal.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
