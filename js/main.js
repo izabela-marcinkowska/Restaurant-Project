@@ -1,34 +1,37 @@
-'use strict';
+"use strict";
 
-const rootElement = document.documentElement;
-const scrollToTopBtn = document.querySelector('.scroll-to-top');
+const rootElement = document.documentElement; //entire site
+const scrollToTopBtn = document.querySelector(".scroll-to-top");
 
 function scrollToTop(event) {
+  // Remove default link behaviour (etc. quick scrolling)
   event.preventDefault();
   // Scroll to top logic
   rootElement.scrollTo({
+    //Defining top position after scrolling upp
     top: 0,
-    behavior: 'smooth'
+    //Defining way of scrolling
+    behavior: "smooth",
   });
-};
+}
 
 function handleScroll() {
-  // Do something on scroll
+  // Calculate how far you have scrolled
   const scrollTotal = rootElement.scrollHeight - rootElement.clientHeight;
   // Show scroll button after 25%
   if (rootElement.scrollTop / scrollTotal > 0.25) {
-    // Show button
-    scrollToTopBtn.classList.add('show-scroll-btn');
+    // Adds class to show the button
+    scrollToTopBtn.classList.add("show-scroll-btn");
   } else {
-    // Hide button
-    scrollToTopBtn.classList.remove('show-scroll-btn');
+    // Remove class to Hide button
+    scrollToTopBtn.classList.remove("show-scroll-btn");
   }
-};
+}
 
-scrollToTopBtn.addEventListener('click', scrollToTop);
-document.addEventListener('scroll', handleScroll);
+scrollToTopBtn.addEventListener("click", scrollToTop);
+document.addEventListener("scroll", handleScroll);
 
 // När sidan laddat färdigt
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener("DOMContentLoaded", function () {
   sal();
 });
