@@ -27,3 +27,8 @@ function handleScroll() {
 
 scrollToTopBtn.addEventListener('click', scrollToTop);
 document.addEventListener('scroll', handleScroll);
+
+// När sidan laddat färdigt
+document.addEventListener('DOMContentLoaded', () => {
+  sal();
+});
